@@ -17,6 +17,13 @@ Create a Node.js TypeScript Project.
 
 Rename the file .env.example to .env and update the keys which you get from [OpenAI website](https://platform.openai.com/account/api-keys)
 
+In tsconfig.json 
+set "target": "ES2020" or grater
+"module": "NodeNext"
+
+In package.json add 
+"type": "module",
+
 
 [Temperature](https://gptforwork.com/guides/openai-gpt3-temperature)
 
